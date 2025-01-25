@@ -15,3 +15,13 @@ type TodoItem struct{
 type TodoList struct{
 	Items []TodoItem
 }
+
+func (tl *TodoList) AddItem(todoItem TodoItem){
+	tl.Items = append(tl.Items, todoItem)
+}
+
+func (tl *TodoList) RemoveItem(id int){
+	for i,item := range tl.Items{
+		if item.
+	}
+}
